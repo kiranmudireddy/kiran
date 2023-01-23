@@ -1,0 +1,17 @@
+#Setting up Git username		git config --global user.name "username"
+#Setting up Git user Email		git config --global user. Email "email id"
+#To commit files to repository		git, commit -m "message"
+# To check logs/commit it		git log
+# To push the file to repo		git remote, add origin “repo link”
+#To commit changes to master		git push –u origin Master
+ 	To push to master branch, we need to use Personal access token from git hub
+If anyone add any file in GitHub, we can pull those to our local machine using pull command 
+#to pull a file form Remote to local 	git pull “repo link”
+#to commit changes to master		git push –u origin Master
+	Give GitHub username and GitHub access token as passwords
+
+To work using an existing repository from the central server. Clone the central directory to local machine and commit, push the changes back to the central server
+#To clone repo from GitHub		git clone ‘link’
+Once cloned we can do the necessary changes to the cloned repo in our local machine, push and commit those changes to the staging area & master branch with the same process
+
+

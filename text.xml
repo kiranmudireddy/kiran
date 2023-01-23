@@ -1,0 +1,10 @@
+#Perform a quick update:	 	sudo yum update -y
+#Install git in your EC2 instance		sudo yum install git -y
+#Check git version			git version
+#Create a directory named employee	mkdir mygit
+#Get inside my git directory		cd mygit
+#Initialize git local repository		git init
+#To check the status 			git status
+#Add file to repository			git add "filename"
+#to add multiple files to repo		git add.
+
